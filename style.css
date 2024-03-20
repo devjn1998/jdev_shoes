@@ -141,6 +141,7 @@ section {
         display: grid;
         grid-template-columns: repeat(2, 48%);
         column-gap: 1%;
+        row-gap: 5%;
     }
 
     .conteudoProdutos h2 {
@@ -150,6 +151,11 @@ section {
 
     .conteudoProdutos p {
         font-size: 1.2em;
+    }
+
+    .conteudoProdutos button
+    {
+        margin-bottom: 36px;
     }
 }
 
